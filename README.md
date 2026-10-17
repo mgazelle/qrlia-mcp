@@ -2,7 +2,7 @@
 
 # qrlia MCP server
 
-Create and manage dynamic QR codes and read their scan analytics from Claude, Cursor and any other MCP client.
+Create and manage dynamic QR codes and read their scan analytics from Claude, ChatGPT, Cursor and any other MCP client.
 
 **Remote server:** `https://mcp.qrlia.com/mcp` (Streamable HTTP, OAuth sign-in). Nothing to install or run.
 
@@ -42,6 +42,10 @@ claude mcp add --transport http qrlia https://mcp.qrlia.com/mcp
 ```
 
 Then type `/mcp`, pick **qrlia** and **Authenticate**.
+
+### ChatGPT
+
+In ChatGPT, open Settings → Apps, turn on developer mode under Advanced, and create an app with the URL `https://mcp.qrlia.com/mcp` and OAuth sign-in. Your ChatGPT plan needs to support custom apps.
 
 ### Cursor, VS Code, Windsurf, Cline and other clients
 
