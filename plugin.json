@@ -1,0 +1,10 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "qrlia",
+  "version": "1.0.50",
+  "description": "Create and manage dynamic QR codes and read their scan analytics from your AI assistant (remote MCP server, OAuth sign-in).",
+  "author": { "name": "qrlia", "url": "https://qrlia.com" },
+  "homepage": "https://qrlia.com/mcp-gateway?utm_source=cursor-directory&utm_medium=directory&utm_campaign=mcp-launch",
+  "repository": "https://github.com/mgazelle/qrlia-mcp",
+  "keywords": ["qr-code", "qr", "analytics", "marketing", "mcp", "remote-mcp"]
+}
